@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.companies {
+    margin-top: 20px;
+}
+
+.companies ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.companies li {
+    margin-bottom: 10px;
+}
+
+.companies img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.jobs {
+    margin-top: 20px;
+}
+
+.jobs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jobs li {
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact form {
+    display: flex;
